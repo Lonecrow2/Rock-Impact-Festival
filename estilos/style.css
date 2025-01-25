@@ -4,7 +4,7 @@
 
 html,
 body {
-    
+
     min-height: 100vh;
 
 }
@@ -15,7 +15,7 @@ body {
     width: 100vw;
     margin: 0px;
     padding: 0px;
-    background-image: url(../imagens/palco1000.jpeg);
+    background-image: url(../imagens/fundo-Modfic.jpg.);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,11 @@ body {
 }
 
 header {
-    display: inline-block
+    display: flex;
+    /* display: inline-block; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 header>img {
@@ -35,9 +39,8 @@ header>img {
 
 main {
     box-shadow: 0px 0px 20px black;
-    background-color: #ff000060;
     margin: auto;
-    margin-top: -230px;
+ 
 }
 
 h1 {
@@ -49,29 +52,29 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-h3{
+h3 {
     font-size: 30px;
 }
 
-.titulo1{
+.titulo1 {
     margin-top: 38px;
 }
 
-.chamada > h2{
+.chamada>h2 {
     font-size: 40px;
-} 
-
-.container2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    
 }
 
-.container2 > div > div > p{
+.container2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+
+}
+
+.container2>div>div>p {
     font-size: 15px;
 }
 
@@ -89,13 +92,13 @@ h3{
     border-radius: 79px;
 }
 
-.container2{
+.container2 {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 80%;
-    background-color: #202020;
+    background-color: #202020e8;
     padding: 20px;
     border-radius: 37px;
     box-shadow: 0px 0px 22px 3px black;
@@ -106,16 +109,16 @@ h3{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-    
+
+
 }
 
 .bandas2>img {
-    
+
     width: 150px;
 }
 
-.bandas2{
+.bandas2 {
     flex: auto;
     background-color: #313131;
     width: 250px;
