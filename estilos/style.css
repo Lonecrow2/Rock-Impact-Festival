@@ -1,0 +1,123 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+html,
+body {
+    
+    min-height: 100vh;
+
+}
+
+body {
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 20px 15px #110000;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/palco1000.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header {
+    display: inline-block
+}
+
+header>img {
+    margin: 20px 0px 0px 20px;
+    height: 200px;
+
+}
+
+main {
+    box-shadow: 0px 0px 20px black;
+    background-color: #ff000060;
+    margin: auto;
+    margin-top: -230px;
+}
+
+h1 {
+    margin: 15px 0px 0px 0px;
+    color: #000000;
+    text-shadow: 0px 0px 18px #ff0000;
+    font-size: 35px;
+    font-family: "Frijole", serif;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.titulo1{
+    margin-top: 38px;
+}
+
+.chamada > h2{
+    font-size: 40px;
+} 
+
+.container2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    
+}
+
+.container2 > div > div > p{
+    font-size: 15px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo1 {
+    padding: 5px;
+    margin-bottom: 30px;
+    height: 176px;
+    width: 493px;
+    border-radius: 79px;
+}
+
+.container2{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 37px;
+    box-shadow: 0px 0px 22px 3px black;
+}
+
+.bandas1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.bandas2>img {
+    
+    width: 150px;
+}
+
+.bandas2{
+    flex: auto;
+    background-color: #313131;
+    width: 250px;
+    padding: 5px;
+}
