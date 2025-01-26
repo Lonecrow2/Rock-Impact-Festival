@@ -4,9 +4,7 @@
 
 html,
 body {
-
     min-height: 100vh;
-
 }
 
 body {
@@ -25,7 +23,6 @@ body {
 
 header {
     display: flex;
-    /* display: inline-block; */
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
@@ -60,12 +57,23 @@ h3 {
     font-size: 30px;
 }
 
+h4{ 
+    text-align: center;
+    font-size: 40px;
+}
+
 .titulo1 {
+    box-shadow: 0px 0px 5px 5px #ff000085;
+    background-color: #ff000085;
     margin-top: 38px;
 }
 
 .chamada>h2 {
     font-size: 40px;
+}
+
+.chamada > p{
+    font-size: 25px;
 }
 
 .container2 {
@@ -75,7 +83,7 @@ h3 {
 }
 
 .container2>div>div>p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .container1 {
@@ -109,13 +117,13 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
+    color: white;
 
 }
 
 .bandas2>img {
-
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
 .bandas2 {
@@ -123,4 +131,21 @@ h3 {
     background-color: #313131;
     width: 250px;
     padding: 5px;
+}
+
+.atividades{
+    color: white;
+}
+
+.atividades2{
+    background-color: #313131;
+    padding: 5px;
+}
+
+.atividades2 > img{
+   
+}
+
+.atividades-t > p{
+    font-size: 25px;
 }
