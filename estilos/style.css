@@ -2,15 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 
-html,
-body {
-    min-height: 100vh;
-}
 
 body {
     box-sizing: border-box;
     box-shadow: inset 0px 0px 20px 15px #110000;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background-image: url(../imagens/fundo-Modfic.jpg);
