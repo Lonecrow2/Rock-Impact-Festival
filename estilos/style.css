@@ -9,7 +9,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-image: url(../imagens/fundo-Modfic.jpg);
+    background-image: url(../imagens/palco-d.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@ main {
 h1 {
     margin: 13px 0px 0px 0px;
     color: #000000;
-    text-shadow: 0px 0px 15px #ff0000;
+    text-shadow: 0px 0px 3px #ff0000;
     font-size: 30px;
     font-family: "Frijole", serif;
     text-align: center;
@@ -56,9 +56,15 @@ h4 {
     font-size: 34px;
 }
 
+.paraG{
+    font-size: 21px;
+}
+
 .titulo1 {
-    box-shadow: 0px 0px 4px 4px #ff000085;
-    background-color: #ff000085;
+    padding: 4px;
+    margin-bottom: 26px;
+    height: 150px;
+    width: 420px;
     margin-top: 32px;
 }
 
@@ -71,7 +77,11 @@ h4 {
 }
 
 .chamada {
-    width: 100%;
+    box-shadow: inset 0px 0px 7px 2px black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ffffff1f;
+    width: 90%;
 }
 
 
@@ -84,13 +94,7 @@ h4 {
     justify-content: center;
 }
 
-.titulo1 {
-    padding: 4px;
-    margin-bottom: 26px;
-    height: 150px;
-    width: 420px;
-    border-radius: 67px;
-}
+
 
 .container2 {
     flex-wrap: wrap;
