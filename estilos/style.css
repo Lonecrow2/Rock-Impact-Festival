@@ -25,8 +25,8 @@ header {
 }
 
 header>img {
-    margin: 17px 0px 0px 17px; 
-    height: 170px; 
+    margin: 17px 0px 0px 17px;
+    height: 170px;
 }
 
 main {
@@ -34,10 +34,10 @@ main {
 }
 
 h1 {
-    margin: 13px 0px 0px 0px; 
+    margin: 13px 0px 0px 0px;
     color: #000000;
-    text-shadow: 0px 0px 15px #ff0000; 
-    font-size: 30px; 
+    text-shadow: 0px 0px 15px #ff0000;
+    font-size: 30px;
     font-family: "Frijole", serif;
     text-align: center;
 }
@@ -48,26 +48,26 @@ h2 {
 
 h3 {
     margin: 0px;
-    font-size: 26px; 
+    font-size: 26px;
 }
 
 h4 {
     text-align: center;
-    font-size: 34px; 
+    font-size: 34px;
 }
 
 .titulo1 {
-    box-shadow: 0px 0px 4px 4px #ff000085; 
+    box-shadow: 0px 0px 4px 4px #ff000085;
     background-color: #ff000085;
-    margin-top: 32px; 
+    margin-top: 32px;
 }
 
 .chamada>h2 {
-    font-size: 34px; 
+    font-size: 34px;
 }
 
-.chamada > p {
-    font-size: 21px; 
+.chamada>p {
+    font-size: 21px;
 }
 
 .chamada {
@@ -76,7 +76,7 @@ h4 {
 
 
 .container2>div>div>p {
-    font-size: 17px; 
+    font-size: 17px;
 }
 
 .container1 {
@@ -85,11 +85,11 @@ h4 {
 }
 
 .titulo1 {
-    padding: 4px; 
-    margin-bottom: 26px; 
-    height: 150px; 
-    width: 420px; 
-    border-radius: 67px; 
+    padding: 4px;
+    margin-bottom: 26px;
+    height: 150px;
+    width: 420px;
+    border-radius: 67px;
 }
 
 .container2 {
@@ -97,26 +97,29 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 82%; 
+    width: 82%;
     background-color: #202020e8;
-    padding: 17px; 
-    border-radius: 31px; 
-    box-shadow: 0px 0px 19px 3px black; 
+    padding: 17px;
+    border-radius: 31px;
+    box-shadow: 0px 0px 19px 3px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
+    text-shadow: 1px 1px 0px black;
 }
 
 .bandas1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     color: white;
     margin: auto;
+
 }
 
 .bandas2>img {
-    height: 213px; 
-    width: 213px; 
+    height: 213px;
+    width: 213px;
 }
 
 .bandas2 {
@@ -124,15 +127,16 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     background-color: #313131;
-    width: 213px; 
-    padding: 9px; 
-    margin: 9px; 
+    flex-basis: 500px;
+    padding: 9px;
+    margin: 9px;
     box-shadow: 3px 3px 5px 2px #00000091;
+    border-radius: 10px;
 }
 
 #areas-descanso {
-    height: 510px; 
-    width: 425px; 
+    height: 510px;
+    width: 425px;
     align-self: center;
 }
 
@@ -140,6 +144,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     color: white;
 }
 
@@ -147,38 +152,55 @@ h4 {
     display: flex;
     flex-direction: column;
     background-color: #313131;
-    padding: 4px; 
-    height: 510px; 
-    width: 425px; 
-    margin: 13px; 
-    padding: 9px; 
+    padding: 4px;
+    flex-basis: 425px;
+    margin: 13px;
+    padding: 9px;
     box-shadow: 3px 3px 5px 2px #00000091;
+    border-radius: 10px;
 }
 
-.atividades2 > img {
-    width: 383px; 
-    height: 383px; 
+.atividades2>img {
+    width: 383px;
+    height: 383px;
 }
 
 .atividades-t {
     width: 100%;
 }
 
-.atividades-t > p {
-    font-size: 21px; 
+.atividades-t>p {
+    font-size: 21px;
 }
 
-.palco-container{
+.palco-container {
     margin-top: 50px;
 }
 
-.img-palco{
+.img-palco {
     width: 70%;
     margin: auto;
 }
 
-.img-palco > img{
+.img-palco>img {
     box-shadow: 2px 2px 10px 4px black;
     width: 100%;
     border-radius: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px black;
+    font-size: 17px;
+    color: #d4d4d4;
+    padding: 5px;
+    border-top: 3px solid #a1a1a1;
+    padding-bottom: 10px;
+    background-color: #3f3f3fe8;
+}
+
+footer>p>a {
+    color: #70ddff;
+    text-decoration: none;
 }
