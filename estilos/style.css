@@ -52,12 +52,22 @@ h3 {
 }
 
 h4 {
+    
     text-align: center;
     font-size: 34px;
 }
 
+.estilo-p{
+    padding: 7px;
+    border-radius: 13px;
+    background-image: linear-gradient(to right, #ff00003d, #ff000000 59%);
+}
+
 .paraG{
     font-size: 21px;
+    padding: 7px;
+    border-radius: 13px;
+    background-image: linear-gradient(to right, #ff00003d, #ff000000 59%);
 }
 
 .titulo1 {
@@ -139,6 +149,7 @@ h4 {
 }
 
 #areas-descanso {
+    padding: 11px;
     height: 510px;
     width: 425px;
     align-self: center;
@@ -168,6 +179,7 @@ h4 {
     width: 383px;
     height: 383px;
 }
+
 
 .atividades-t {
     width: 100%;
