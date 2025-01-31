@@ -52,18 +52,18 @@ h3 {
 }
 
 h4 {
-    
+
     text-align: center;
     font-size: 34px;
 }
 
-.estilo-p{
+.estilo-p {
     padding: 7px;
     border-radius: 13px;
     background-image: linear-gradient(to right, #ff00003d, #ff000000 59%);
 }
 
-.paraG{
+.paraG {
     font-size: 21px;
     padding: 7px;
     border-radius: 13px;
