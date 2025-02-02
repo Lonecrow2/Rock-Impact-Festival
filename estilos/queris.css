@@ -96,6 +96,31 @@
         font-size: 35px;
     }
 
+    #botao-ingressos > a:hover{
+        background-color: #000000;
+        box-shadow: 0px 0px 10px 15px #ff0000;
+        width: 200px;
+        height: 200px;
+        right: 20px;
+    }
+
+    #botao-ingressos > a{
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    }
+
+    #botao-borda{
+    bottom: 10px;
+    right: 10px;
+    border: 13px solid black;
+    border-bottom-color: #ff0000;
+    border-top-color: red;
+    padding: 13px;
+    width: 200px;
+    height: 200px;
+    }
+
     header>img {
         margin: 15px 30px 54px 0px;
     }
