@@ -312,3 +312,26 @@ footer>p>a {
 li :hover{
    background-color: #353535;
 }
+
+/*barra de rolagem*/
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #380000;
+    border-radius: 6px;
+    border: 1px solid #ff0000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 6px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+}
